@@ -5,7 +5,7 @@ describe 'API KEY setter' do
 
   before :all do
     @old_api_key = ENV['FFNERD_API_KEY']
-    ENV['FFNERD_API_KEY'] = '12345'
+    ENV['FFNERD_API_KEY'] = 'tw2nujb3ysqw'
   end
 
   it 'should set the API key from the ENV variable' do
